@@ -1,0 +1,42 @@
+.features{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 3em 0;
+
+   
+}
+.features_intro{
+    color: #0c2044 ;
+    width: 43%;
+    margin-left: 10em;
+}
+.features_intro .feature_title{
+    font-size: 35px;
+    font-weight: 600;
+}
+.features_intro .desc_feature{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7;
+    margin-top: -1em; 
+}
+.features_lists{
+    margin-left: 10em;
+    margin-top: 5em;
+}
+@media (max-width:800px){
+    .features_intro{
+        width: 90%;
+    }
+    .features_intro{
+        margin-left: auto;
+    }
+    .features_intro .feature_title{
+        font-size: 25px;
+        margin-bottom: 1.5em;
+    }
+    .features_lists{
+        margin-left: auto;
+    }
+}

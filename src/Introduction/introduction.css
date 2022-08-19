@@ -1,0 +1,21 @@
+.introduction{
+    width: 100vw;
+}
+.border{
+    height: 1px;
+    width: 80%;
+    background-color: lightgrey;
+    margin-top: 4em;
+}
+.cards_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 85%;
+}
+@media (max-width:800px) {
+    .cards_container{
+        flex-direction: column;
+    }
+}

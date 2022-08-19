@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@200;400;500;700&family=Smooch+Sans:wght@300;500&display=swap');
+
+.hero{
+    display: grid;
+    grid-template-columns: 60% auto;
+    background: linear-gradient(rgb(234, 230, 255), rgb(255, 255, 255)) no-repeat;
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+}
+.left_container{
+    width: 74%;
+    margin-left: 10em;
+    margin-top: 8em;
+    color: #091e42;
+    margin-right: 2em;
+
+}
+.left_container .title{
+    font-weight: 500;
+    font-size: 3rem;
+    margin-bottom: -0.2em;
+    word-spacing: 1.2px;
+}
+.left_container p{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.left_container .email{
+    margin-top: 3em;
+}
+.left_container .email input{
+    width: 56%;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 1em;
+    letter-spacing: 1.5px;
+    margin-right: 1.4em;
+    background-color: #fff;
+}
+.left_container .email .signin{
+    border-radius: 4px;
+    padding: 13px;
+    background-color:#0164ff;
+    color: #fff;
+    text-decoration: none;
+}
+.signin:hover{
+    background-color: #173d7e;
+}
+.left_container .item{
+    display: flex;
+    align-items: center;
+
+    
+}
+.left_container .MuiSvgIcon-root{
+    color: #5483db;
+    margin-top: 8px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.right_container{
+    margin-left: 3em;
+}
+.right_container img{
+    height: 343px;
+    width: 450px;
+    aspect-ratio: auto 650 / 500;
+    margin-top: 10em;
+    margin-right: 4em;
+}
+.border{
+    width: 70%;
+    height: 1px;
+    background-color: lightgray;
+    margin: auto;
+}
+
+@media (max-width:800px) {
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left_container{
+        width: 95%;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .left_container .title{
+        font-size: 2rem;
+        font-weight: 600;
+        margin:0 7px;
+    }
+    .left_container p{
+        margin:0 5px;
+        padding: 0 auto;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    form input{
+        display: none;
+    }
+    .left_container .email .signin{
+        width: 80%;
+        margin-top: 1em;
+    }
+    .item{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .right_container {
+        margin:auto
+    }
+    .right_container img{
+        height: 243px;
+        width: 345px;
+        margin-right: 5px;
+    }
+
+}

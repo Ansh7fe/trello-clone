@@ -1,0 +1,39 @@
+.cards{
+    width: 60%;
+    display: flex;
+    margin: 3em 2em;
+}
+.cards .cards_left{
+    margin-right: 1.7em;
+}
+.cards .cards_left img{
+    height: 80px;
+}
+.cards .cards_right .cards_title{
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: -0.2em
+}
+.cards_right a{
+    border-radius: 4px;
+    padding: 13px;
+    background-color:#0164ff;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 2em;
+    font-weight: 500;
+}
+.cards_right .desc{
+    padding: 1px;
+    color: #0c2044;
+    line-height: 1.5;
+    font-size: 15px;
+    margin-bottom: 2em;
+    font-weight: 500;
+}
+@media (max-width:800px){
+    .cards{
+        width: 90%;
+    }
+}

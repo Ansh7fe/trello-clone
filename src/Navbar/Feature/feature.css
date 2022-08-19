@@ -1,0 +1,86 @@
+.feature{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 63px;
+    height: 350px;
+    background-color: #fff;
+}
+.f_right{
+    width: 70%;
+}
+.f_right h3{
+    font-size: 15px;
+    margin-left: 11em;
+    margin-top: 25px;
+}
+.f_border{
+    height: 1px ;
+    width: 40%;
+    background-color: lightgray;
+    margin:0 10em;
+
+}
+.f_list{
+    display: flex;
+}
+.f_left{
+    background-color: #f6f5ff;
+    width: 35%;
+    padding: 30px;
+    line-height: 2;
+
+}
+.f_left button{
+    background-color: white;
+    border: 1px solid #c7c1ec;
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 4px;
+
+}
+.s{
+    font-size: 12px;
+    font-weight: 500;
+}
+.xl{
+    font-weight: 600;
+    font-size: 14px;
+}
+.f_list{
+    width: 85%;
+    margin-left: 10em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.f_card{
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    margin-left: 5px;
+    padding: 5px;
+}
+@media  (max-width:800px) {
+    .feature{
+        flex-direction: column;
+    }
+    .f_right{
+        width: 90%;
+    }
+    .f_right h3{
+        margin: 1em;
+    }
+    .f_list{
+        flex-direction: column;
+        width: 85%;
+        margin: 1em;
+    }
+    .f_card{
+        width: 90%;
+    }
+    .f_left{
+        display: none;
+    }
+}

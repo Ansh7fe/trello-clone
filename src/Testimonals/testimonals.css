@@ -1,0 +1,29 @@
+.testimonals{
+    background-color: #e6fcfe;
+}
+.slick-dots {
+    position: absolute;
+    display:inline-block;
+    /* width: 100%; */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+
+    top: 40px;
+}
+
+@media  (max-width:800px) {
+    .slick-dots{
+        top: 95%;
+    }
+}
+
+.slick-next:before {
+    display: none;
+}
+.slick-prev:before{
+    display: none;
+    position: absolute;
+    
+}

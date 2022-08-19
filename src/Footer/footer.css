@@ -1,0 +1,185 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+}
+.download_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafbfc;
+    padding: 5px;
+}
+.download_title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15em;
+    margin-right: 1em;
+}
+.download_btn a img{
+    height: 45px;
+    margin: 0 14px;
+}
+.footer_main{
+    background-color: #182a4d;
+    color: #fff;
+}
+
+.footer_top{
+    margin: 1em auto;
+    width: 80%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+
+}
+.footer_top .logo h1,a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer_top .logo h1{
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.footer_items{
+    width: 85%;
+    height: 100px;
+    margin:0 1em ;
+    padding: 5px 6px;
+}
+.footer_items:hover{
+    background-color: #505f79;
+}
+.footer_items:hover{
+    text-decoration: underline;
+}
+.lg{
+    font-size: 15px;
+    font-weight: 500;
+}
+.xs{
+    font-weight: 500;
+    font-size: 12px;
+}
+.footer_border{
+    width: 90%;
+    height: 1px;
+    background-color: #505f79;
+}
+.items_border{
+    display: none;
+}
+.footer_bottom{
+    color: #fff;
+    margin: 1em auto;
+    margin-bottom: 0;
+    width: 80%;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.language{
+    display: flex;
+    margin-left: 1em;
+}
+.footer_left{
+    display: flex;
+}
+.site_settings{
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    margin: 1em 4em;
+}
+.site_settings .footer_item{
+    margin: 0 15px;
+}
+.social_links{
+    display: flex;
+    
+}
+.social_links .link{
+    border: 2px solid #fff;
+    margin: 0 15px;
+    border-radius: 50%;
+}
+.social_links .link .MuiSvgIcon-root{
+    color: #fff;
+    height: 15px;
+    width: 15px;
+    margin: 2.5px;
+}
+.social_links .link .MuiSvgIcon-root:hover{
+    transform: scale(0.7);
+}
+
+@media  (max-width:800px) {
+    .footer{
+        margin-top: 5em;
+    }
+    .download_container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .download_btn{
+        margin: auto;
+        flex-direction: row;
+    display: flex;
+    }
+    .download_btn a img{
+        height: 40px;
+        margin-bottom: 4px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .download_title{
+        margin-left: 0;
+        margin-bottom:2em;
+    }
+    .footer_top{
+        flex-direction: column;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .footer_items{
+        padding: 3px;
+        height: 80px;
+    }
+    .items_border{
+        display: block;
+        width: 95%;
+    }
+    .footer_border{
+        width: 85%;
+        margin: auto;
+    }
+    .footer_bottom{
+        margin: auto;
+        width:70%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer_left{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .language{
+        display: flex;
+    }
+    .site_settings{
+        flex-direction: column;
+        align-items: flex-start;
+        line-height: 2.4;
+        margin-left: 0;
+        margin-bottom: 5em;
+    }
+    .social_links{
+        margin-bottom: 5em;
+    }
+}
